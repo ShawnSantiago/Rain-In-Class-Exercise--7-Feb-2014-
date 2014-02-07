@@ -23,15 +23,137 @@ p {
 	line-height: 24px;
 }
 
+.container {
+	width: 1080px;
+	margin: 0 auto;
+
+}
+
+header {
+	width: 100%;
+	height: 650px;
+	background-image: url('../images/headerBG.jpg');
+}
+
+nav {
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	float: left;
+	padding: 15px 32px;
+}
+
+#logo {
+	float: left;
+	width: 144px;
+	height: 46px;
+	background-image: url('../images/logo.png'); 
+	
+}
+
+ul#topNav {
+	float: right;
+	font-family: 'Montserrat',Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+ul#topNav li {
+	display: inline;
+}
+
+ul#topNav li a {
+	color: #69787f;
+	text-decoration: none;
+}
+
+ul#topNav li a:hover {
+	color: #fefefe;
+	text-decoration: none;
+}
+
+header h1 {
+	clear: both;
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin-top: 136px;
+	
+
+}
+
+section#about {
+	width: 100%;
+	float: left;
+	padding: 70px;
+
+}
+
+.leftabout {
+	width: 533px;
+	float: left;
+	 
+	text-align: center;
+
+}
+
+.rightabout {
+	width: 547px;
+	
+	float: left;
+
+}
+
+aside#details {
+	float: left;
+	width: 100%;
+	background-color: #605b95;
+	color: #fff;
+	padding: 70px;
+	
+}
+
+.leftdetails {
+	width: 547px;
+	float: left;
 
 
+}
 
+.rightdetails {
+	width: 533px;
+	float: left;
+	
+	
+	text-align: center;
+}
 
+footer {
+	float: left;
+	width: 100%;
+	padding: 70px;
+	background-color:#496273 ;
+	color:#fff;
+	text-align: center;
 
+}
 
+ul#downloadbtn {
+	width: 100%;
+	margin-top: 50px;
+}
 
+ul#downloadbtn li {
+	display: inline-block;
+	margin: 0px 100px ;
+}
 
-
+ul#downloadbtn li a {
+	color: #fff;
+	text-decoration: 115px;
+	width: 115px;
+	border: 1px solid #34bb7d;
+	padding: 10px;
+	display: block;
+}
 
 
 
